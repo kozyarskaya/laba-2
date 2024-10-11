@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+
+}
+
+.menu{
+    padding: 0 50px;
+    height: 100px;
+    display: flex; 
+    justify-content: space-between; /*раскидываем логотип и меню по разным краям*/
+    align-items: center; /*размещаем по центру*/
+    box-shadow: 00px 4px 7px 0px #81818140;
+    display: flex;
+}
+.menu__ul{
+    list-style: none;
+    height: 100%;
+    display: flex; 
+    align-items: center; /*размещаем по центру меню*/
+}
+.menu__logo{
+    color: #05A88D;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    padding: 0px 150px;
+
+}
+.menu__link{
+    color: #000000;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.5px;
+    letter-spacing: -0.015em;
+    text-align: left;
+
+
+}
+.menu__link:hover{
+    color: #05A88D;
+}
+
+.menu__login{
+    color: #05A88D;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 20px;
+
+
+}
+.menu__signup{
+    color: #05A88D;
+    font-size: 16px;
+    text-decoration: none;
+    border: 1px solid #05A88D;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border-color: #05A88D;
+    margin-left: 20px;
+    text-align: left;
+}
+
+
+
